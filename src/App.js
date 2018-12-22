@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./resources/styles.css";
 import Header from "./components/header_footer/Header";
-
+import Featured from "./components/featured/Featured";
 class App extends Component {
   render() {
     return (
@@ -10,6 +10,7 @@ class App extends Component {
         style={{ height: "1500px", background: "cornflowerblue" }}
       >
         <Header />
+        <Featured />
       </div>
     );
   }
